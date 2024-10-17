@@ -5,7 +5,11 @@ module.exports = {
       './resources/js/**/*.js',            // Your JS files (if needed)
     ],
     theme: {
-      extend: {},
-    },
+        extend: {
+          fontFamily: {
+            'gilroy-bold': ['Gilroy', 'sans-serif'], // Add Gilroy-Bold font here
+          },
+        },
+      },
     plugins: [],
   }
